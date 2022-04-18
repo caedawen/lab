@@ -5,7 +5,7 @@ class Television:
     MIN_VOLUME = 0      # Minimum TV volume
     MAX_VOLUME = 2      # Maximum TV volume
 
-    def __init__(self, channel: str, volume: int, status: bool) -> None:
+    def __init__(self, channel: int, volume: int, status: bool) -> None:
         """
         Constructor to create initial state of a television object.
         :param channel: Television's initial channel setting.
